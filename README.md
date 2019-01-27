@@ -1,5 +1,5 @@
 # nlp-for-punjabi
-State of the Art Tokenizer, Language model and Classifier for punjabi language (spoken in Indian sub-continent)
+First ever, State of the Art Tokenizer, Language model and Classifier for Punjabi language (spoken in Indian sub-continent)
 
 ## Dataset
 Download Wikipedia Articles Dataset (44,000 articles) which I scraped, cleaned and trained model on from [here](https://www.dropbox.com/sh/dpfvf1gvbxqfwnv/AADp8drS7HopN_1H7D_1vqSOa?dl=0)
@@ -22,4 +22,4 @@ Download pretrained Language Model from [here](https://www.dropbox.com/s/d0fzov1
 
 Unsupervised training using Google's [sentencepiece](https://github.com/google/sentencepiece)
 
-Download the model and vocabulary from [here](https://www.dropbox.com/sh/mj54tvdfaso2okq/AABJMoLN1jYLOawva3RtB5Tba?dl=0)
+Download the trained model and vocabulary from [here](https://www.dropbox.com/sh/mj54tvdfaso2okq/AABJMoLN1jYLOawva3RtB5Tba?dl=0)
