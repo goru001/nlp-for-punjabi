@@ -1,6 +1,8 @@
 # nlp-for-punjabi
 First ever, State of the Art Tokenizer, Language model and Classifier for Punjabi language (spoken in Indian sub-continent)
 
+NOTE: This is the first ever Language model and Classifier in Punjabi to the best of my knowledge. If you know of some previous work which has been done in NLP for Punjabi, let me know. I'll be happy to correct my statements.
+
 ## Dataset
 Download Wikipedia Articles Dataset (44,000 articles) which I scraped, cleaned and trained model on from [here](https://www.dropbox.com/sh/dpfvf1gvbxqfwnv/AADp8drS7HopN_1H7D_1vqSOa?dl=0)
 
