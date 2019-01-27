@@ -18,8 +18,13 @@ Kappa Score of classification model: ~49
 
 Download pretrained Language Model from [here](https://www.dropbox.com/s/d0fzov1jw7ogkmq/fourth.pth.zip?dl=0)
 
+## Classifier
+
+Download classifier from [here](https://www.dropbox.com/sh/2qe0jcfnxel59g1/AADPeLElM9sbFkyzvTUbEKNUa?dl=0)
+
 ## Tokenizer
 
 Unsupervised training using Google's [sentencepiece](https://github.com/google/sentencepiece)
 
 Download the trained model and vocabulary from [here](https://www.dropbox.com/sh/mj54tvdfaso2okq/AABJMoLN1jYLOawva3RtB5Tba?dl=0)
+
