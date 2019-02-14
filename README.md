@@ -15,6 +15,12 @@ Perplexity of Language Model: ~13 (on 20% validation set)
 
 Kappa Score of classification model: ~49 
 
+    Note: Accuracy would have been a wrong metric with the above dataset, as it was highly unbalanced, with
+
+    114 Positive Examples
+    670 Negative Examples
+
+    Hence, I calculated Kappa Score (~49).
 
 ## Pretrained Language Model
 
