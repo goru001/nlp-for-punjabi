@@ -24,6 +24,9 @@ Accuracy of classification model: 89%
 
     Hence, It would be better to look at Kappa Score (~60).
 
+The above results for classification have been obtained on 
+validation set which had ~84% negatives and ~16% positives.
+
 ## Pretrained Language Model
 
 Download pretrained Language Model from [here](https://www.dropbox.com/s/d0fzov1jw7ogkmq/fourth.pth.zip?dl=0)
