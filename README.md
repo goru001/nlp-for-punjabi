@@ -1,4 +1,4 @@
-# nlp-for-punjabi
+# NLP for Punjabi
 First ever, State of the Art Tokenizer, Language model and Classifier for Punjabi language (spoken in Indian sub-continent)
 
 NOTE: This is the first ever Language model and Classifier in Punjabi to the best of my knowledge. If you know of some previous work which has been done in NLP for Punjabi, let me know. I'll be happy to correct my statements.
@@ -13,14 +13,16 @@ Checkout BBC Punjabi News dataset  which I scraped, cleaned and trained model on
 
 Perplexity of Language Model: ~13 (on 20% validation set)
 
-Kappa Score of classification model: ~49 
+Kappa Score of classification model: ~60 
 
-    Note: Accuracy would have been a wrong metric with the above dataset, as it was highly unbalanced, with
+Accuracy of classification model: 89%
+
+    Note: Accuracy would be a wrong metric with the above dataset, as it was highly unbalanced, with
 
     114 Positive Examples
     670 Negative Examples
 
-    Hence, I calculated Kappa Score (~49).
+    Hence, It would be better to look at Kappa Score (~60).
 
 ## Pretrained Language Model
 
