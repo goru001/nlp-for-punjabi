@@ -5,3 +5,7 @@ datasets-preparation/panjabi-wikipedia-dataset/panjabi-wikipedia-articles/*
 datasets-preparation/panjabi-wikipedia-dataset/panjabi-wikipedia-articles.zip
 classification/models/*
 language-model/tmp/*
+classification/tmp/*
+.idea/workspace.xml
+language-model/.ipynb_checkpoints/
+language-model/PanjabiDataset/
