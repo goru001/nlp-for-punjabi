@@ -1,7 +1,7 @@
 {
   "embeddings": [
     {
-      "tensorName": "Punjabi Embedding Vectors",
+      "tensorName": "Punjabi Sentence Encodings",
       "tensorShape": [
         9,
         400
