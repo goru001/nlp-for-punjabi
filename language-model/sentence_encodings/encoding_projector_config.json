@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Punjabi Embedding Vectors",
+      "tensorShape": [
+        9,
+        400
+      ],
+      "tensorPath": "https://media.githubusercontent.com/media/goru001/nlp-for-punjabi/master/language-model/sentence_encodings/inltk_sentence_encoding_pa.tsv",
+      "metadataPath": "https://media.githubusercontent.com/media/goru001/nlp-for-punjabi/master/language-model/sentence_encodings/inltk_sentence_encoding_metadata_pa.tsv"
+    }
+  ]
+}
