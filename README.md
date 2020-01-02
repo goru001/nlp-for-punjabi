@@ -1,31 +1,43 @@
 # NLP for Punjabi
-First ever, State of the Art Tokenizer, Language model and Classifier for Punjabi language (spoken in Indian sub-continent)
+This repository contains State of the Art Language models and Classifier for
+ Punjabi language (spoken in Indian sub-continent)
 
-NOTE: This is the first ever Language model and Classifier in Punjabi to the best of my knowledge. If you know of some previous work which has been done in NLP for Punjabi, let me know. I'll be happy to correct my statements.
+The models trained here have been used in [Natural Language Toolkit for Indic Languages
+ (iNLTK)](https://github.com/goru001/inltk)
 
 ## Dataset
-Download Wikipedia Articles Dataset (44,000 articles) which I scraped, cleaned and trained model on from [here](https://www.dropbox.com/sh/dpfvf1gvbxqfwnv/AADp8drS7HopN_1H7D_1vqSOa?dl=0)
 
-Checkout BBC Punjabi News dataset  which I scraped, cleaned and trained model on from the repository path `datasets-preparation/panjabi-bbc-news-dataset/`
+#### Created as part of this project
+1. [Punjabi Wikipedia Articles](https://www.kaggle.com/disisbig/punjabi-wikipedia-articles)
 
+2. [Punjabi News Dataset](https://www.kaggle.com/disisbig/punjabi-news-dataset)
 
 ## Results
 
-Perplexity of Language Model: ~13 (on 20% validation set)
+#### Language Model Perplexity
 
-Kappa Score of classification model: ~60 
+| Architecture/Dataset | Punjabi Wikipedia Articles |
+|:--------:|:----:|
+|   ULMFiT  |  24.40  |
+|  TransformerXL |  14.03  |
 
-Accuracy of classification model: 89%
 
-    Note: Accuracy would be a wrong metric with the above dataset, as it was highly unbalanced, with
+#### Classification Metrics
 
-    114 Positive Examples
-    670 Negative Examples
+##### ULMFiT
 
-    Hence, It would be better to look at Kappa Score (~60).
+| Dataset | Accuracy | Kappa Score |
+|:--------:|:----:|:----:|
+| Punjabi News Dataset |  89.17  |  54.5  |
 
-The above results for classification have been obtained on 
-validation set which had ~84% negatives and ~16% positives.
+#### Visualizations
+ 
+##### Embedding Space
+
+| Architecture | Visualization |
+|:--------:|:----:|
+| ULMFiT | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-punjabi/master/language-model/embedding_projector_config.json) |
+
 
 ## Pretrained Language Model
 
