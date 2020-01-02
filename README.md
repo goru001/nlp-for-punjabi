@@ -38,6 +38,11 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 |:--------:|:----:|
 | ULMFiT | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-punjabi/master/language-model/embedding_projector_config.json) |
 
+##### Sentence Encodings
+
+| Architecture | Visualization |
+|:--------:|:----:|
+| ULMFiT | [Encodings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-punjabi/master/language-model/sentence_encodings/encoding_projector_config.json) |
 
 ## Pretrained Language Model
 
