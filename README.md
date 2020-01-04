@@ -46,11 +46,11 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 ## Pretrained Language Model
 
-Download pretrained Language Model from [here](https://www.dropbox.com/s/d0fzov1jw7ogkmq/fourth.pth.zip?dl=0)
+Download pretrained Language Model from [here](https://drive.google.com/open?id=1GXqqBEqja-KT3XG3UfZWNbl2vCb7aD3g)
 
 ## Classifier
 
-Download classifier from [here](https://www.dropbox.com/sh/2qe0jcfnxel59g1/AADPeLElM9sbFkyzvTUbEKNUa?dl=0)
+Download classifier from [here](https://drive.google.com/open?id=1vc5v9rC4dKUUdY3FsVKvQyTqQbz7BZPS)
 
 ## Tokenizer
 
