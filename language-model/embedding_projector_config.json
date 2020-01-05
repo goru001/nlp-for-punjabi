@@ -1,7 +1,7 @@
 {
   "embeddings": [
     {
-      "tensorName": "Panjabi Embedding Vectors",
+      "tensorName": "Panjabi Embedding Vectors - ULMFiT",
       "tensorShape": [
         30000,
         400
