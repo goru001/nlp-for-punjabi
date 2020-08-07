@@ -12,9 +12,12 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 2. [Punjabi News Dataset](https://www.kaggle.com/disisbig/punjabi-news-dataset)
 
+#### Open Source Datasets
+1. [IndicNLP News Article Classification Dataset - Punjabi](https://github.com/ai4bharat-indicnlp/indicnlp_corpus#indicnlp-news-article-classification-dataset)
+
 ## Results
 
-#### Language Model Perplexity
+#### Language Model Perplexity (on validation set)
 
 | Architecture/Dataset | Punjabi Wikipedia Articles |
 |:--------:|:----:|
@@ -26,13 +29,13 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 ##### ULMFiT
 
-| Dataset | Accuracy | Kappa Score |
-|:--------:|:----:|:----:|
-| Punjabi News Dataset |  89.17  |  54.5  |
+| Dataset | Accuracy | MCC | Notebook to Reproduce results |
+|:--------:|:----:|:----:|:----:|
+| IndicNLP News Article Classification Dataset - Punjabi |  97.12  |  96.17  | [Link](https://github.com/goru001/nlp-for-punjabi/blob/master/classification/Panjabi_Classification_Model.ipynb) |
 
 #### Visualizations
  
-##### Embedding Space
+##### Word Embeddings
 
 | Architecture | Visualization |
 |:--------:|:----:|
@@ -40,21 +43,19 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 | TransformerXL | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-punjabi/master/language-model/embedding_projector_transformer_config.json) |
 
 
-##### Sentence Encodings
+##### Sentence Embeddings
 
 | Architecture | Visualization |
 |:--------:|:----:|
 | ULMFiT | [Encodings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-punjabi/master/language-model/sentence_encodings/encoding_projector_config.json) |
 
-## Pretrained Language Model
+## Pretrained Models
 
-Download pretrained Language Model from [here](https://drive.google.com/open?id=1GXqqBEqja-KT3XG3UfZWNbl2vCb7aD3g)
+#### Language Models 
 
-## Classifier
+Download pretrained Language Models from [here](https://drive.google.com/open?id=1GXqqBEqja-KT3XG3UfZWNbl2vCb7aD3g)
 
-Download classifier from [here](https://drive.google.com/open?id=1vc5v9rC4dKUUdY3FsVKvQyTqQbz7BZPS)
-
-## Tokenizer
+#### Tokenizer
 
 Unsupervised training using Google's [sentencepiece](https://github.com/google/sentencepiece)
 
